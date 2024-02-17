@@ -1,3 +1,3 @@
-[submodule "Nvim"]
-	path = Nvim
+[submodule "nvim"]
+	path = nvim
 	url = https://github.com/TJohn0312/Nvim.git
