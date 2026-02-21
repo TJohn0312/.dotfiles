@@ -1,3 +1,21 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+style = {shape = "Block"}
+
+[window]
+decorations = "none"
+decorations_theme_variant = "Dark"
+# opacity = 1.0
+opacity = 0.8
+startup_mode = "Windowed"
+
+[window.padding]
+x = 5
+y = 5
+
+[general]
 # https://github.com/alacritty/alacritty-theme
 import = [
     "~/.config/alacritty/themes/themes/rose-pine.toml"
@@ -31,19 +49,3 @@ import = [
     # "~/.config/alacritty/themes/themes/github_light_high_contrast.toml" #white
 
 ]
-[colors]
-draw_bold_text_with_bright_colors = true
-
-[cursor]
-style = {shape = "Block"}
-
-[window]
-decorations = "none"
-decorations_theme_variant = "Dark"
-# opacity = 1.0
-opacity = 0.8
-startup_mode = "Windowed"
-
-[window.padding]
-x = 5
-y = 5
